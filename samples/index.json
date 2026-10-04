@@ -1,0 +1,111 @@
+[
+ {
+  "id": "sample-claude-stenvad",
+  "title": "Vraglygten på Sortbro",
+  "lang": "da",
+  "rev": "2026-10-03T19:42:00.000Z",
+  "was": [
+   "2026-10-03T15:30:49.855Z"
+  ]
+ },
+ {
+  "id": "sample-claude-stenvad-en",
+  "title": "The Wrecker’s Lantern of Sortbro",
+  "lang": "en",
+  "rev": "2026-10-03T18:32:27.314Z",
+  "book": "sample-claude-stenvad"
+ },
+ {
+  "id": "sample-gpt-stenvad",
+  "title": "Fyrets stjålne navn",
+  "lang": "da",
+  "rev": "2026-10-03T13:26:52.670Z"
+ },
+ {
+  "id": "sample-gpt-stenvad-en",
+  "title": "The Stolen Name of the Light",
+  "lang": "en",
+  "rev": "2026-10-03T18:32:25.141Z",
+  "book": "sample-gpt-stenvad"
+ },
+ {
+  "id": "sample-offline-heist",
+  "title": "Borgmesterens kæde",
+  "lang": "da",
+  "rev": "2026-10-03T20:34:34.209Z",
+  "was": [
+   "2026-10-03T07:31:03.010Z",
+   "2026-10-03T19:04:41.018Z",
+   "2026-10-03T20:12:36.432Z"
+  ]
+ },
+ {
+  "id": "sample-offline-heist-en",
+  "title": "The Mayor’s Chain",
+  "lang": "en",
+  "rev": "2026-10-03T20:34:34.209Z",
+  "book": "sample-offline-heist",
+  "was": [
+   "2026-10-03T19:04:41.018Z",
+   "2026-10-03T20:12:36.432Z"
+  ]
+ },
+ {
+  "id": "sample-offline-forest",
+  "title": "Den forkerte rod",
+  "lang": "da",
+  "rev": "2026-10-03T20:34:34.209Z",
+  "was": [
+   "2026-10-03T07:31:01.679Z",
+   "2026-10-03T19:04:41.018Z",
+   "2026-10-03T20:12:36.432Z"
+  ]
+ },
+ {
+  "id": "sample-offline-forest-en",
+  "title": "The Wrong Root",
+  "lang": "en",
+  "rev": "2026-10-03T20:34:34.209Z",
+  "book": "sample-offline-forest",
+  "was": [
+   "2026-10-03T19:04:41.018Z",
+   "2026-10-03T20:12:36.432Z"
+  ]
+ },
+ {
+  "id": "sample-offline-dungeon",
+  "title": "Tyve år i mørket",
+  "lang": "da",
+  "rev": "2026-10-03T20:34:34.209Z",
+  "was": [
+   "2026-10-03T07:31:00.332Z",
+   "2026-10-03T19:04:41.018Z",
+   "2026-10-03T20:12:36.432Z"
+  ]
+ },
+ {
+  "id": "sample-offline-dungeon-en",
+  "title": "Twenty Years in the Dark",
+  "lang": "en",
+  "rev": "2026-10-03T20:34:34.209Z",
+  "book": "sample-offline-dungeon",
+  "was": [
+   "2026-10-03T19:04:41.018Z",
+   "2026-10-03T20:12:36.432Z"
+  ]
+ },
+ {
+  "id": "sample-goblins",
+  "title": "Kirkeklokkens Ekko i Mørket",
+  "lang": "da",
+  "rev": "2026-10-03T04:21:20.643Z",
+  "retired": true
+ },
+ {
+  "id": "sample-stenvad",
+  "title": "Det Grønne Lys over Stenvad",
+  "lang": "da",
+  "rev": "2026-10-03T04:20:49.680Z",
+  "retired": true
+ }
+]
