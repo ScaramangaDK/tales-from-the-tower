@@ -4,6 +4,6 @@ A demo of Tales from the Tower, an app that writes ready-to-run, 5E-compatible f
 
 Open it: https://scaramangadk.github.io/tales-from-the-tower/
 
-This repository holds only the built web app, not its source. Build 042-rooms-door-sound, commit 055590e, published 2026-10-04 07:57.
+This repository holds only the built web app, not its source. Build 043-stairs-whole-portal, commit 71859b1, published 2026-10-04 08:30.
 
 Credits and licences (the SRD under CC BY 4.0, icons from game-icons.net under CC BY 3.0) are on the app's Credits page.
