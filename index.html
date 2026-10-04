@@ -8,7 +8,21 @@
     <meta name="description" content="Tales from the Tower writes ready-to-run fantasy adventures for your table: scenes, maps, people and monsters with real stat blocks." />
     <meta name="theme-color" content="#1a110a" />
     <title>Tales from the Tower</title>
-    <script type="module" crossorigin src="./assets/index-BwtnyslC.js"></script>
+    <!-- The page is dark from its first moment, and the front page's painting starts loading with the page, not after
+         the app's script (slow connections: the tester's T14, 4 Oct 2026). -->
+    <style>html,body{background:#04070f;margin:0}</style>
+    <script>
+      (function () {
+        var h = location.hash;
+        if (h && h !== '#/' && h !== '#') return;
+        var tall = window.matchMedia && window.matchMedia('(max-aspect-ratio: 4/5)').matches;
+        var l = document.createElement('link');
+        l.rel = 'preload'; l.as = 'image';
+        l.href = './art/portal/' + (tall ? 'portal-portrait' : 'portal') + '.webp';
+        document.head.appendChild(l);
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-C_J-egSb.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-hePW80VL.js">
     <link rel="stylesheet" crossorigin href="./assets/index-Bq5VyZIl.css">
       <style>html[data-audio="off"] .topbar-tools > .round-button:not(.lang-button) { display: none; }</style>
