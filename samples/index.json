@@ -1,5 +1,26 @@
 [
  {
+  "id": "sample-opus-klokken",
+  "title": "Navnet i klokken",
+  "lang": "da",
+  "rev": "2026-10-04T01:31:28.996Z",
+  "was": [
+   "2026-10-04T00:53:00.000Z",
+   "2026-10-04T01:30:06.723Z"
+  ]
+ },
+ {
+  "id": "sample-opus-klokken-en",
+  "title": "The Name in the Bell",
+  "lang": "en",
+  "rev": "2026-10-04T01:31:28.996Z",
+  "book": "sample-opus-klokken",
+  "was": [
+   "2026-10-04T01:12:00.000Z",
+   "2026-10-04T01:30:06.723Z"
+  ]
+ },
+ {
   "id": "sample-claude-stenvad",
   "title": "Vraglygten på Sortbro",
   "lang": "da",
