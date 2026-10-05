@@ -2,12 +2,38 @@
 <html lang="en" data-theme="heroic">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- The game's mark (the user, 4 Oct 2026: round 1's A4 "overalt"): the gold tower in its night-blue medallion,
+         in the browser's tab, on the home screen and in the top bar. tools/make_app_icons.py makes every size. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png" />
+    <link rel="icon" href="./favicon.ico" sizes="48x48" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content="Tales from the Tower writes ready-to-run fantasy adventures for your table: scenes, maps, people and monsters with real stat blocks." />
-    <meta name="theme-color" content="#1a110a" />
+    <meta name="theme-color" content="#04070f" />
+    <!-- The home screen (the user, 4 Oct 2026: "fuld skærm" on a tablet and a phone too): installed, the app opens
+         without the browser's bars. The manifest asks for full screen and falls back to a window of its own; an
+         iPhone or an iPad reads the Apple tags (a black status bar over the app, its icon, its name, which the
+         window's title, changing with the room, would not give). -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Tales" />
     <title>Tales from the Tower</title>
+    <!-- A shared link (Discord, Messenger, a mail) shows the front page's painting with its title. The picture's
+         address must be whole, so it names the demo site. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tales from the Tower" />
+    <meta property="og:title" content="Tales from the Tower" />
+    <meta property="og:description" content="Ready-to-run fantasy adventures for your table: scenes, maps, people and monsters with real stat blocks." />
+    <meta property="og:url" content="https://scaramangadk.github.io/tales-from-the-tower/" />
+    <meta property="og:image" content="https://scaramangadk.github.io/tales-from-the-tower/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="The old stone tower at dusk by the sea, under the painted title Tales from the Tower" />
+    <meta name="twitter:card" content="summary_large_image" />
     <!-- The page is dark from its first moment, and the front page's painting starts loading with the page, not after
          the app's script (slow connections: the tester's T14, 4 Oct 2026). -->
     <!-- Only body: a background on html would stop body's from reaching the window's canvas and lay it over the
@@ -25,9 +51,9 @@
         document.head.appendChild(l);
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-C2QHFkQT.js"></script>
+    <script type="module" crossorigin src="./assets/index-DXZxy2uG.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-hePW80VL.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-r6NJqs5P.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-DOM4dOmQ.css">
   </head>
   <body>
     <div id="root"></div>
